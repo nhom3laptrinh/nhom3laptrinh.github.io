@@ -224,10 +224,11 @@ function xulyDathang(product) {
         let chinhanh1 = document.querySelector("#chinhanh-1");
         let chinhanh2 = document.querySelector("#chinhanh-2");
         if(chinhanh1.checked) {
-            diachinhan = "273 An Dương Vương, Phường 3, Quận 5";
+            diachinhan = "Số 1, Phố Trịnh Văn Bô, Nam Từ Liêm, Hà Nội";
         }
         if(chinhanh2.checked) {
-            diachinhan = "04 Tôn Đức Thắng, Phường Bến Nghé, Quận 1";
+            diachinhan = "Nhà C, E, Làng sinh viên HACINCO, 79 Ngụy Như Kon Tum,
+                    Thanh Xuân, Hà Nội";
         }
         hinhthucgiao = tudenlay.innerText;
     }
